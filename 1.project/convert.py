@@ -44,5 +44,6 @@ for s in readlog:                                                        # 每�
         s = s.replace(j, '')
     alllog_new.write(s)                                                 # 替换后的一行写入到新文件
 
+
 alllog.close()
 alllog_new.close()
