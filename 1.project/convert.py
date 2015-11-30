@@ -39,6 +39,7 @@ alllog_new = open("D:\PC\desktop\\kaoqin\\log\\all_new.log", 'w+')       # 替�
 readlog = alllog.readlines()                                             # 读取日志文件的每一行
 for s in readlog:                                                        # 每一行匹配并替换
 
+
     # for j in ['start:', 'end:', "'", '},', '.html', '.htm', 'events: [', '{']:   # 需要替换的字符
     for j in ['start:', 'end:', "'", '},', '.html', '.htm', '{']:   # 需要替换的字符
         s = s.replace(j, '')
