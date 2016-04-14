@@ -14,7 +14,7 @@ if __name__ == "__main__":
     # print otherStyleTime
 
     # 联系人手机号码
-    TELL = 15021477616
+    TELL = 150214776**
     print TELL
     # 更新包名称
     PKG_NAME = 'EboxCI.war,YGserver.jar'
@@ -28,7 +28,7 @@ if __name__ == "__main__":
     def http_post():
         import sys, math, os, urllib, json, urllib2, time, datetime
         url = 'http://wt.3tong.net/json/sms/Submit'
-        values = {"account": "dh26501", "password": "156f810bcd1fd338278b15c4df425877", "msgid": "", "phones": TELL, "content": SMS, "sign": "【江苏云柜】", "subcode": "8528", "sendtime": "201405051230"}
+        values = {"account": "dhwew01", "password": "156f810bcsdsdsds5c4df425877", "msgid": "", "phones": TELL, "content": SMS, "sign": "【江苏**】", "subcode": "8528", "sendtime": "201405051230"}
         jdata = json.dumps(values)             # 对数据进行JSON格式化编码
         req = urllib2.Request(url, jdata)       # 生成页面请求的完整数据
         response = urllib2.urlopen(req)       # 发送页面请求
